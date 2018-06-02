@@ -152,16 +152,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114401601337833786, guid: 0cef015c89c8c264c9682f754013cdce,
-        type: 2}
-      propertyPath: minFov
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 114401601337833786, guid: 0cef015c89c8c264c9682f754013cdce,
-        type: 2}
-      propertyPath: maxFov
-      value: 100
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0cef015c89c8c264c9682f754013cdce, type: 2}
   m_IsPrefabParent: 0
@@ -739,7 +729,7 @@ GameObject:
   - component: {fileID: 705350064}
   - component: {fileID: 705350063}
   - component: {fileID: 705350062}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -919,37 +909,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 152642, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 149790, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 149790, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 127968, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
-      propertyPath: m_MovingTurnSpeed
-      value: 3600
-      objectReference: {fileID: 0}
-    - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
-      propertyPath: m_StationaryTurnSpeed
-      value: 1800
-      objectReference: {fileID: 0}
-    - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
-      propertyPath: m_JumpPower
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
-      propertyPath: m_AnimSpeedMultiplier
-      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
@@ -1897,6 +1859,19 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -141.059
       objectReference: {fileID: 0}
+    - target: {fileID: 1613035213206712, guid: e343e43e702f3e3449477cb3524e1e4b, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380215028736698, guid: e343e43e702f3e3449477cb3524e1e4b, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23670620786646028, guid: e343e43e702f3e3449477cb3524e1e4b,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 01e75ed328f19be4a878de4f03a2dec3, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e343e43e702f3e3449477cb3524e1e4b, type: 2}
   m_IsPrefabParent: 0
