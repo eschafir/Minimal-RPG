@@ -38,6 +38,8 @@ GameObject:
   - component: {fileID: 92036336937649614}
   - component: {fileID: 124803268560209728}
   - component: {fileID: 81147000162896506}
+  - component: {fileID: 114340312512217566}
+  - component: {fileID: 114528885785945548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -186,6 +188,32 @@ MonoBehaviour:
   visualiseInEditor: 1
   closestDistance: 0.5
   dontClipTag: Player
+--- !u!114 &114340312512217566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1373008725131202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d52385cf8458f24ea42664d7c439952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkCursor: {fileID: 2800000, guid: c53bb227a5c21d345a1788558fdde794, type: 3}
+  attackCursor: {fileID: 2800000, guid: f7c08cc9d636f6b44889a57afa3a057c, type: 3}
+  unknownCursor: {fileID: 2800000, guid: 9481453bd6ad44740bdb74b1f6a09e9a, type: 3}
+--- !u!114 &114528885785945548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1373008725131202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f67ba8297d195474a8fe4a1eb8bfa8cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerPriorities: 0a00000009000000
 --- !u!114 &114842475985966522
 MonoBehaviour:
   m_ObjectHideFlags: 1
