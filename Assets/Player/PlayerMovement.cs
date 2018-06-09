@@ -64,9 +64,9 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void WalkToDestination() {
-        var playerToClickPoint = currentDestination - transform.position;
-        if (playerToClickPoint.magnitude >= 0) {
-            thirdPersonCharacter.Move(playerToClickPoint, false, false);
+        var destination = currentDestination - transform.position;
+        if (destination.magnitude >= 0) {
+            thirdPersonCharacter.Move(destination, false, false);
         } else {
             thirdPersonCharacter.Move(Vector3.zero, false, false);
         }
